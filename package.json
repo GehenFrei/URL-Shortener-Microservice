@@ -1,5 +1,5 @@
 {
-  "name": "URL Shortener",
+  "name": "URL_Shortener",
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
