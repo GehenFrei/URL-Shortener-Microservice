@@ -10,7 +10,7 @@
         
 ##Example creation output:
 ```js
-{ "original_url": "http://freecodecamp.com/news", "short_url": "https://code-camp-gehenfrei.c9users.io/4" }
+{ "original_url": "http://freecodecamp.com/news", "short_url": "https://APP_URL/4" }
 ```
 ##Usage:
 https://APP_URL/4
