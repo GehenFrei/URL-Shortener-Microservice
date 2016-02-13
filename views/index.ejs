@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="header">
+      API Basejump: URL Shortener
+    </h1>
+    </br>
+    <h3>Examples:</h3>
+    <code><a href="<%= baseUrl %>new/https://www.google.com"><%= baseUrl %>new/https://www.google.com</a></code>
+    <br>
+    <code><a href="<%= baseUrl %>new/http://freecodecamp.com/news"><%= baseUrl %>new/http://freecodecamp.com/news</a></code>
+    <br>If you want to pass a site that doesn't exist (or an invalid url) for some reason you can do:<br>
+    <code><a href="<%= baseUrl %>new/invalid?allow=true"><%= baseUrl %>new/invalid?allow=true</a></code>
+    <h3>Example creation output:</h3>
+    <code>
+      {
+        "original_url": "http://freecodecamp.com/news",
+        "short_url": "<%= baseUrl %>4"
+      }
+    </code>
+    <h3>Usage:</h3>
+    <code><a href="<%= baseUrl %>4"><%= baseUrl %>4</a></code>
+    <h3>Will redirect to:</h3>
+    <code><a href="http://freecodecamp.com/news">http://freecodecamp.com/news</a></code>
+  </div>
+</body>
+
+</html>
